@@ -9,6 +9,12 @@ cask "spotifly" do
 
   app "Spotifly.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Spotifly.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Preferences/com.spotifly.app.plist",
     "~/Library/Caches/com.spotifly.app",
