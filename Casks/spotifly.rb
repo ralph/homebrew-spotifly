@@ -1,6 +1,6 @@
 cask "spotifly" do
   version "1.0"
-  sha256 "PLACEHOLDER_SHA256"  # This will be updated by the release script
+  sha256 "0968b02f13c841b13de87036a14d115b8aede1f1fde810ebcaed648279bb2c4d"
 
   url "https://github.com/ralph/homebrew-spotifly/releases/download/v#{version}/Spotifly-#{version}.zip"
   name "Spotifly"
