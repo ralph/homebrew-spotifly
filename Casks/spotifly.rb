@@ -1,6 +1,6 @@
 cask "spotifly" do
-  version "1.0"
-  sha256 "e416bd5ea3b6d4b786ce23e651154b5d68da5faf5dad2e844ffb16acbc53fcfa"
+  version "1.0.1"
+  sha256 "c79dfb9a6abbba74cb83b4699eaf314693ad93ffc7729c29cd7032dfa85d9f98"
 
   url "https://github.com/ralph/homebrew-spotifly/releases/download/v#{version}/Spotifly-#{version}.zip"
   name "Spotifly"
