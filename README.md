@@ -2,6 +2,14 @@
 
 Homebrew tap for [Spotifly](https://github.com/ralph/spotifly) - A lightweight Spotify player for macOS.
 
+## Screenshots
+
+### Album View
+![Album View](images/screenshot-album-view.png)
+
+### Miniplayer
+![Miniplayer](images/screenshot-miniplayer.png)
+
 ## Installation
 
 ### Homebrew Tap (Recommended) ✨
