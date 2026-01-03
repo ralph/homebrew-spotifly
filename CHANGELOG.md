@@ -5,6 +5,23 @@ All notable changes to Spotifly will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-01-03
+
+### Added
+- 3-dot context menu on tracks with actions:
+  - Play Next
+  - Add to Queue
+  - Start Song Radio
+  - Go to Artist
+  - Go to Album
+  - Share (copies link to clipboard)
+- Like/Unlike current track with ⌘L keyboard shortcut
+- Menu bar entries for all keyboard shortcuts (Playback and Navigate menus)
+- Heart indicator on tracks showing favorite status
+
+### Fixed
+- Bug fixes and performance improvements
+
 ## [1.0.1] - 2026-01-02
 
 ### Fixed
@@ -26,5 +43,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favorites management
 - Native macOS app with Spotify Web API integration
 
+[1.1.0]: https://github.com/ralph/homebrew-spotifly/releases/tag/v1.1.0
 [1.0.1]: https://github.com/ralph/homebrew-spotifly/releases/tag/v1.0.1
 [1.0]: https://github.com/ralph/homebrew-spotifly/releases/tag/v1.0

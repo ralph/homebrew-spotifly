@@ -1,6 +1,6 @@
 # Spotifly Homebrew Tap
 
-Homebrew tap for [Spotifly](https://github.com/ralph/spotifly) - A lightweight Spotify player for macOS.
+Homebrew tap for Spotifly - A lightweight Spotify player for macOS.
 
 ## Screenshots
 
@@ -12,7 +12,7 @@ Homebrew tap for [Spotifly](https://github.com/ralph/spotifly) - A lightweight S
 
 ## Installation
 
-### Homebrew Tap (Recommended) ✨
+### Homebrew Tap (Recommended)
 
 Using Homebrew Tap provides automatic updates and easy version management:
 
@@ -61,6 +61,28 @@ If you prefer to install manually without automatic updates:
 - Search functionality
 - Favorites management
 
+## Keyboard Shortcuts
+
+### Playback
+
+| Shortcut | Action |
+|----------|--------|
+| Space | Play / Pause |
+| ⌘ → | Next track |
+| ⌘ ← | Previous track |
+| ⌘ L | Like / Unlike current track |
+
+### Navigation
+
+| Shortcut | Action |
+|----------|--------|
+| ⌘ 1 | Go to Favorites |
+| ⌘ 2 | Go to Playlists |
+| ⌘ 3 | Go to Albums |
+| ⌘ 4 | Go to Artists |
+| ⌘ F | Focus search field |
+| ⌘ R | Refresh (on startpage) |
+
 ## Releases
 
 All releases are published to the [GitHub Releases page](https://github.com/ralph/homebrew-spotifly/releases).
@@ -68,14 +90,6 @@ All releases are published to the [GitHub Releases page](https://github.com/ralp
 - **Latest**: Always points to the most recent stable version
 - **Versioned**: Specific versions for stability (e.g., v1.0, v1.1)
 
-## Development
-
-This is a Homebrew tap repository. The main source code is in the [main Spotifly repository](https://github.com/ralph/spotifly).
-
 ## License
 
-See the [main repository](https://github.com/ralph/spotifly) for license information.
-
-## Support
-
-For issues, feature requests, or questions, please use the [main repository's issue tracker](https://github.com/ralph/spotifly/issues).
+This software is proprietary. All rights reserved.
