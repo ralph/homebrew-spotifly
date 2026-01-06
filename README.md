@@ -2,6 +2,10 @@
 
 Homebrew tap for Spotifly - A lightweight Spotify player for macOS.
 
+> [!CAUTION]
+> **IMPORTANT: Spotify API Restrictions**
+> Due to Spotify API restrictions, this app will currently show **403 errors** in many places for unauthorized users. If you would like to test Spotifly, please **contact me** directly and provide the **email address associated with your Spotify account** to have your account added to the allowlist.
+
 ## Screenshots
 
 ### Album View
