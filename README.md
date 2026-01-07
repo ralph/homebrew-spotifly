@@ -4,8 +4,9 @@ Homebrew tap for Spotifly - A lightweight Spotify player for macOS.
 
 > [!CAUTION]
 > **IMPORTANT: Spotify API Restrictions**
-> Due to Spotify API restrictions, this app will currently show **403 errors** in many places even for authorized users. If you would like to test Spotifly, please **contact me** directly and provide the **email address associated with your Spotify account** to have your account added to the allowlist.
-> I apologize for the inconvenience and appreciate your understanding. While I **could** make the API key configurable, currently this does not help b/c **Spotify has ceased giving out new API keys** to 3rd party developers. I hope to resolve this in the future, but I'm 100% dependent on Spotify's policies here.
+> Due to Spotify API restrictions, this app may show **403 errors** when using the built-in API credentials. You have two options:
+> 1. **Contact me** directly and provide the **email address associated with your Spotify account** to be added to the allowlist
+> 2. **Use your own Client ID** - If you have access to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/), you can create your own app and use its Client ID (see [Using Your Own Client ID](#using-your-own-client-id) below)
 
 ## Screenshots
 
@@ -65,6 +66,40 @@ If you prefer to install manually without automatic updates:
 - Playback controls
 - Search functionality
 - Favorites management
+
+## Using Your Own Client ID
+
+If you have access to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/), you can create your own Spotify app and use its Client ID with Spotifly:
+
+### Step 1: Create a Spotify App
+
+1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/)
+2. Click **Create app**
+3. Fill in the required fields:
+   - **App name**: Anything you like (e.g., "Spotifly")
+   - **App description**: Anything you like
+   - **Redirect URIs**: Add exactly `de.rvdh.spotifly://callback`
+   - **APIs used**: Select **Web API** and **Web Playback SDK**
+4. Accept the terms and click **Save**
+
+All other fields (Website, Bundle IDs, Android packages) can be left empty.
+
+![Spotify Developer App Settings](images/spotify-developer-app-settings.png)
+
+### Step 2: Get Your Client ID
+
+1. Open your newly created app in the dashboard
+2. Go to **Settings**
+3. Copy the **Client ID** (not the Client Secret)
+
+### Step 3: Configure Spotifly
+
+1. Open Spotifly
+2. On the login screen, check **"Use my own client id"**
+3. Paste your Client ID into the text field
+4. Click **Connect with Spotify**
+
+Your Client ID will be saved securely in the macOS Keychain and used for all future sessions.
 
 ## Keyboard Shortcuts
 
