@@ -2,6 +2,8 @@
 
 Homebrew tap for Spotifly - A lightweight Spotify player for macOS.
 
+**Source Code:** [github.com/ralph/spotifly](https://github.com/ralph/spotifly)
+
 > [!CAUTION]
 > **IMPORTANT: Spotify API Restrictions**
 > Due to Spotify API restrictions, this app may show **403 errors** when using the built-in API credentials. You have two options:
@@ -132,4 +134,4 @@ All releases are published to the [GitHub Releases page](https://github.com/ralp
 
 ## License
 
-This software is proprietary. All rights reserved.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
