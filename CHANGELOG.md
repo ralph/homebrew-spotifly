@@ -5,10 +5,15 @@ All notable changes to Spotifly will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.0] - 2026-01-12
+## [1.2.0-beta.1] - 2026-02-06
 
-### Changed
-- Releases now available on main repo with direct download option
+### Added
+- 🎉 Spotify Connect support — Spotifly now shows up as a real Spotify Connect device
+- Seamless playback transfer between devices
+- Automatic session reconnection
+
+### Fixed
+- Bug fixes and performance improvements
 
 ## [1.1.7] - 2026-01-09
 
@@ -90,7 +95,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favorites management
 - Native macOS app with Spotify Web API integration
 
-[1.2.0]: https://github.com/ralph/spotifly/releases/tag/v1.2.0
+[1.2.0-beta.1]: https://github.com/ralph/spotifly/releases/tag/v1.2.0-beta.1
 [1.1.7]: https://github.com/ralph/homebrew-spotifly/releases/tag/v1.1.7
 [1.1.6]: https://github.com/ralph/homebrew-spotifly/releases/tag/v1.1.6
 [1.1.5]: https://github.com/ralph/homebrew-spotifly/releases/tag/v1.1.5
