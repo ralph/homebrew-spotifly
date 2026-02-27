@@ -5,6 +5,16 @@ All notable changes to Spotifly will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.3] - 2026-02-27
+
+### Changed
+- Improved AirPlay audio routing reliability
+- Better Spotify Connect session stability
+
+### Fixed
+- Mini player mode on fullscreen notifications
+- Significantly reduced CPU usage during playback
+
 ## [1.2.2] - 2026-02-08
 
 ### Added
@@ -109,6 +119,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favorites management
 - Native macOS app with Spotify Web API integration
 
+[1.2.3]: https://github.com/ralph/spotifly/releases/tag/v1.2.3
 [1.2.2]: https://github.com/ralph/spotifly/releases/tag/v1.2.2
 [1.2.1]: https://github.com/ralph/spotifly/releases/tag/v1.2.1
 [1.1.7]: https://github.com/ralph/homebrew-spotifly/releases/tag/v1.1.7
