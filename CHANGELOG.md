@@ -5,6 +5,15 @@ All notable changes to Spotifly will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.5] - 2026-03-11
+
+### Added
+- French localization (merci [@statisticalyquiet](https://github.com/statisticalyquiet)! 🇫🇷🥐)
+- Shuffle mode
+
+### Fixed
+- Fix silent playback failure when a new album/playlist starts right after the previous one ends during a network reconnect
+
 ## [1.2.4] - 2026-03-06
 
 ### Fixed
@@ -125,6 +134,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favorites management
 - Native macOS app with Spotify Web API integration
 
+[1.2.5]: https://github.com/ralph/spotifly/releases/tag/v1.2.5
 [1.2.4]: https://github.com/ralph/spotifly/releases/tag/v1.2.4
 [1.2.3]: https://github.com/ralph/spotifly/releases/tag/v1.2.3
 [1.2.2]: https://github.com/ralph/spotifly/releases/tag/v1.2.2
