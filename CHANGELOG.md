@@ -5,6 +5,30 @@ All notable changes to Spotifly will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.6] - 2026-08-12
+
+### Added
+- Remove a track from a playlist straight from its context menu
+
+### Changed
+- Apple Music-style window layout: a single, stable two-column sidebar and content view
+- Refreshed sidebar with the real app icon and updated section icons
+- Unified back/forward navigation across sidebar sections, search results, and drill-downs
+
+### Fixed
+- Playback recovers on its own after a network outage and resumes where it left off
+- Waking from sleep no longer empties the queue, and transport controls keep working when no device is active
+- The progress bar no longer runs ahead or jumps to a stale position when the connection drops
+- Volume changes during local playback take effect immediately instead of lagging
+- Heart toggles persist again across Spotify clients, and Favorites loads reliably from the sidebar
+- Opening a playlist works for newer Spotify accounts, and albums no longer open with a header but no tracks
+- Now Playing shows the right track for relinked songs, and the menu bar overlay updates when a song auto-advances
+- Handing playback to another Spotify device, and transferring it to a Connect speaker, now report the real result
+- Logging out fully stops playback and ends the Spotify session
+- Faster library loading with fewer duplicate network requests
+- French: corrected the tooltip on the scroll-to-current-track button
+- Bug fixes and performance improvements
+
 ## [1.2.5] - 2026-03-11
 
 ### Added
@@ -134,6 +158,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favorites management
 - Native macOS app with Spotify Web API integration
 
+[1.2.6]: https://github.com/ralph/spotifly/releases/tag/v1.2.6
 [1.2.5]: https://github.com/ralph/spotifly/releases/tag/v1.2.5
 [1.2.4]: https://github.com/ralph/spotifly/releases/tag/v1.2.4
 [1.2.3]: https://github.com/ralph/spotifly/releases/tag/v1.2.3
