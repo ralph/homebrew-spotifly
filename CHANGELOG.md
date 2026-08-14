@@ -5,6 +5,29 @@ All notable changes to Spotifly will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.7] - 2026-08-14
+
+### Changed
+- **Spotifly no longer needs a Spotify Client ID.** Signing in is one button and one browser round-trip — no developer-dashboard signup, and no separate step to enable playback. If you already enabled playback you stay signed in; if you skipped it, you sign in once more
+- The start page is Spotify's own: the shelves the official client shows you, instead of three fixed rows
+- Removing a track from a playlist removes the copy you picked, and dragging a row drops it where you let go, even when the same song appears twice
+- Faster library, album, artist and start page loading, with far fewer network requests
+
+### Fixed
+- Pressing play with no local playback device now starts on your active phone or speaker instead of failing
+- Playlists kept inside folders appear in your library again
+- Favorites opens reliably, and the heart is correct for tracks Spotify substitutes in your market
+- Playlists longer than 300 tracks load to the end, and the playlist page loads again
+- Connect speakers show up in Speakers straight away instead of only once another device wakes them
+- Controls Spotify declines no longer look like errors, and Previous restarts the track when there is nothing before it
+- The volume slider greys out on a device that will not accept remote volume, such as an iPhone, instead of failing after the drag
+- Switching accounts no longer shows the previous account's devices, queue and playback state
+- A Spotify session that has been revoked signs you out instead of leaving the app stuck and failing everything
+- Cancelling sign-in from the browser is no longer reported as a connection failure
+- Playlists with no description no longer show the word "null"
+- Refreshing the start page now shows that it is refreshing
+- Bug fixes and performance improvements
+
 ## [1.2.6] - 2026-08-12
 
 ### Added
@@ -158,6 +181,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favorites management
 - Native macOS app with Spotify Web API integration
 
+[1.2.7]: https://github.com/ralph/spotifly/releases/tag/v1.2.7
 [1.2.6]: https://github.com/ralph/spotifly/releases/tag/v1.2.6
 [1.2.5]: https://github.com/ralph/spotifly/releases/tag/v1.2.5
 [1.2.4]: https://github.com/ralph/spotifly/releases/tag/v1.2.4
