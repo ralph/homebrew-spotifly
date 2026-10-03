@@ -5,6 +5,41 @@ All notable changes to Spotifly will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-10-03
+
+### Added
+- Autoplay: when an album or playlist ends, similar tracks play on, as on Spotify's other apps
+- Spotify Connect handover both ways: pick this Mac on your phone, or pull playback here from Speakers, and it carries on where it was
+- Gapless playback, with the next track loaded ahead so Next starts at once
+- Set or remove the cover of your own playlists
+- Back (⌘[) and Forward (⌘]) in the Navigate menu
+- Spatial Audio for Spotify's stereo on AirPods and similar headphones
+- A Light, Dark or System theme switch in Settings
+- Tracks Spotify won't play in your country are greyed out and skipped
+- A free account can browse, and is told that playing on this Mac needs Premium
+
+### Changed
+- **Requires macOS 27**
+- **Playback and Spotify Connect are rebuilt natively in Swift**, with next to no CPU use while nothing plays
+- This Mac appears on Spotify Connect about a second sooner at launch
+- Song radio and stations start sooner and keep going past 500 tracks
+- The page your browser shows after signing in is styled again
+
+### Fixed
+- Putting the Mac to sleep no longer pauses your phone, and a Mac that slept mid-track wakes paused where it stopped
+- Moving another device's volume no longer moves this Mac's, and other devices show this Mac at its own volume
+- Add to Queue reaches the device that is playing
+- Share works again for playlists, albums, artists and tracks
+- Closing the window while music plays keeps Control Center, the queue and ⌘L working
+- Being signed out by Spotify clears the now-playing bar and Control Center, as Log Out does
+- Control Center follows the now-playing bar, and Previous works on a first track
+- A pause no longer skips audio on resume, and a reset of the connection no longer interrupts the music
+- Other devices no longer lose track of this Mac an hour into a session
+- The start page, library and Favorites load again when the network returns, and a page that fails to load says so
+- VoiceOver can play tracks and open playlists, albums and artists from lists, and the heart buttons say what they do
+- Dates, lengths, counts and the volume are written in the app's language
+- Bug fixes and performance improvements
+
 ## [1.2.7] - 2026-08-14
 
 ### Changed
@@ -181,6 +216,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favorites management
 - Native macOS app with Spotify Web API integration
 
+[1.3.0]: https://github.com/ralph/spotifly/releases/tag/v1.3.0
 [1.2.7]: https://github.com/ralph/spotifly/releases/tag/v1.2.7
 [1.2.6]: https://github.com/ralph/spotifly/releases/tag/v1.2.6
 [1.2.5]: https://github.com/ralph/spotifly/releases/tag/v1.2.5
