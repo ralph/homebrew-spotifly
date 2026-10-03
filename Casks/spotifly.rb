@@ -7,6 +7,8 @@ cask "spotifly" do
   desc "Lightweight Spotify player for macOS"
   homepage "https://github.com/ralph/homebrew-spotifly"
 
+  depends_on macos: :golden_gate
+
   app "Spotifly.app"
 
   zap trash: [
