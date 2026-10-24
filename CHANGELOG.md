@@ -5,6 +5,30 @@ All notable changes to Spotifly will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - 2026-10-24
+
+### Added
+- AirPlay for Spotifly alone: send it to a HomePod or another AirPlay speaker from the player bar, while the rest of the Mac's sound stays on the Mac
+- A Now Playing column (⌥⌘I) with the cover and the next tracks; a click on one plays it
+- Search has a page of its own, with your recent searches and Songs, Artists, Albums and Playlists to switch between
+- The start page shows your top tracks and artists over 4 weeks, 6 months or a year
+- Repeat (off, all, one) in the player bar
+- Sort your albums by Recently Added, Title or Artist
+- An artist's discography by Albums, Singles & EPs and Compilations
+- ⌘↑ and ⌘↓ change the volume, ⌃⌘S shows and hides the sidebar, and Settings lists every shortcut
+
+### Changed
+- **A redesign of the whole app**: Spotify's green, a new sidebar and player bar, and every page reworked, from Favorites and Playlists to Queue, Profile and Settings
+- Favorites and playlists are sortable tables with a heart and a menu in every row
+- The mini player moved to View → Mini Player (⌥⌘M)
+- Previous restarts the track after its first 3 seconds, as on Spotify's other apps
+- Log Out asks first
+
+### Fixed
+- Seek, Previous and Next work on the track shown after launch, before anything has played
+- Space plays and pauses again after a search
+- Bug fixes and performance improvements
+
 ## [1.3.0] - 2026-10-03
 
 ### Added
@@ -216,6 +240,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favorites management
 - Native macOS app with Spotify Web API integration
 
+[1.4.0]: https://github.com/ralph/spotifly/releases/tag/v1.4.0
 [1.3.0]: https://github.com/ralph/spotifly/releases/tag/v1.3.0
 [1.2.7]: https://github.com/ralph/spotifly/releases/tag/v1.2.7
 [1.2.6]: https://github.com/ralph/spotifly/releases/tag/v1.2.6
