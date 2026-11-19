@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - AirPlay for Spotifly alone: pick AirPlay speakers in the Mac's sound settings instead
 
 ### Fixed
+- Logging out makes Soloist forget your account; after the next login, pick it once in a Spotify app
 - Sidebar icons in Exposé
 - Bug fixes and performance improvements
 
