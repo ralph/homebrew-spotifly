@@ -12,8 +12,9 @@ cask "spotifly" do
   app "Spotifly.app"
 
   zap trash: [
-    "~/Library/Preferences/com.spotifly.app.plist",
-    "~/Library/Caches/com.spotifly.app",
     "~/Library/Application Support/Spotifly",
+    "~/Library/Caches/rvdh.Spotifly",
+    "~/Library/Containers/rvdh.Spotifly",
+    "~/Library/Preferences/rvdh.Spotifly.plist",
   ]
 end
