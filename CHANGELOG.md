@@ -5,10 +5,11 @@ All notable changes to Spotifly will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.0] - 2026-11-19
+## [2.0.0] - 2026-11-21
 
 ### Added
 - **Spotify Soloist plays on this Mac**: Spotifly sets up Spotify's own Connect receiver, with your own Soloist key from Spotify's developer site, and controls it like any other speaker
+- Settings → Playback shows your saved key as saved, and Soloist's version and days left, with a button to download it again
 - Your mouse's back and forward buttons go back and forward
 
 ### Changed
