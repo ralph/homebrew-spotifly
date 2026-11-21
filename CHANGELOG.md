@@ -5,6 +5,26 @@ All notable changes to Spotifly will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-11-21
+
+### Added
+- **Spotify Soloist plays on this Mac**: Spotifly sets up Spotify's own Connect receiver, with your own Soloist key from Spotify's developer site, and controls it like any other speaker
+- Settings → Playback shows your saved key as saved, and Soloist's version and days left, with a button to download it again
+- Your mouse's back and forward buttons go back and forward
+
+### Changed
+- Speakers leaves out devices Spotify hides
+- Spotifly no longer runs in the App Sandbox, which Soloist needs
+
+### Removed
+- The built-in player: this Mac plays through Soloist
+- AirPlay for Spotifly alone: pick AirPlay speakers in the Mac's sound settings instead
+
+### Fixed
+- Logging out makes Soloist forget your account; after the next login, pick it once in a Spotify app
+- Sidebar icons in Exposé
+- Bug fixes and performance improvements
+
 ## [1.4.0] - 2026-10-24
 
 ### Added
@@ -240,6 +260,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favorites management
 - Native macOS app with Spotify Web API integration
 
+[2.0.0]: https://github.com/ralph/spotifly/releases/tag/v2.0.0
 [1.4.0]: https://github.com/ralph/spotifly/releases/tag/v1.4.0
 [1.3.0]: https://github.com/ralph/spotifly/releases/tag/v1.3.0
 [1.2.7]: https://github.com/ralph/spotifly/releases/tag/v1.2.7
